@@ -4,10 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-      'intro': "url('../assets/bg1.png')"
-      },
-      fontSize: {
-        '230px' : "230px"
+      'intro': "url('../assets/bg-home.png')"
       },
       backgroundColor: {
         '0078AA' : "#0078AA"

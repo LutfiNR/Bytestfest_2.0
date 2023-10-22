@@ -16,7 +16,7 @@ module.exports = {
         'montserrat' : ['Montserrat']
       },
       height: {
-        '700px' : "700px"
+        '675px' : "675px"
       }
     },
   },

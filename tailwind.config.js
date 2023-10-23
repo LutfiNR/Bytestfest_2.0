@@ -14,6 +14,15 @@ module.exports = {
       },
       height: {
         '675px' : "675px"
+      },
+      borderRadius: {
+        '50%' : "50%"
+      },
+      zIndex: {
+        '1': '1',
+      },
+      colors: {
+        '0078AA': '#0078AA',
       }
     },
   },

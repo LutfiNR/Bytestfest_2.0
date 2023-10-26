@@ -1022,6 +1022,14 @@ video {
   line-height: 1;
 }
 
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
 .tracking-widest {
   letter-spacing: 0.1em;
 }

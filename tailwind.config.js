@@ -24,7 +24,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-      'intro': "url('../assets/bg-home.png')"
+      'intro': "url('../assets/bg-home.png')",
+      'kedua': "url('../assets/bg-2.png')"
       },
       backgroundColor: {
         '0078AA' : "#0078AA",
@@ -42,24 +43,6 @@ module.exports = {
         '0078AA' : "#0078AA",
         '3AB4F2' : "#3AB4F2"
       },
-      animation : {
-        'load' : "load 0.7s ease-in-out",
-        'slideup' : "slideup 1s ease-in-out",
-        'slidedown' : "slidedown 1s ease-in-out"
-      },
-      keyframes : {
-        'load' : {
-          'from' : { width: '0' }
-        },
-        'slideup' : {
-          '0%' : {transform: "translateY(50px)"},
-          '100%' : {transform: "translateY(0)"}
-        },
-        'slidedown' : {
-          '0%' : {transform: "translateY(-50px)"},
-          '100%' : {transform: "translateY(0)"}
-        }
-      }
     },
   },
   plugins: [Myclass],
